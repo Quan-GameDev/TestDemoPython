@@ -1,7 +1,44 @@
-a = '12 23 11 41 42 43 54 46 7B 34 35 43 31 31 5F 31 35 5F 55 35 33 46 55 4C 7D'
+import base64
 
-#Giai ma he Hexa -> String
-flag = bytes.fromhex(a)
 
-#Hien thi ket qua
+hex_str = "72bca9b68fc16ac7beeb8f849dca1d8a783e8acf9679bf9269f7bf"
+bytes_ = bytes.fromhex(hex_str)
+flag = base64.b64encode(bytes_)
+
+print("Flag:")
 print(flag)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
